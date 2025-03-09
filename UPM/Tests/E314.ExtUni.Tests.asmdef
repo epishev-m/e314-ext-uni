@@ -1,8 +1,12 @@
 {
-    "name": "E314.DI.GameKit.Uni",
-    "rootNamespace": "E314.DI.GameKit.Uni",
-    "references": [],
-    "includePlatforms": [],
+    "name": "E314.ExtUni.Tests",
+    "rootNamespace": "E314.ExtUni.Tests",
+    "references": [
+        "E314.ExtUni"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

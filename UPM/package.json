@@ -1,12 +1,12 @@
 {
-  "name": "com.e314.gamekit.uni",
-  "displayName": "E314.DI.GameKit.Uni",
-  "version": "1.1.2",
+  "name": "com.e314.ext-uni",
+  "displayName": "E314.ExtUni",
+  "version": "1.0.0",
   "author": {
     "name": "Maksim Epishev",
     "email": "epishev.m@mail.ru"
   },
-  "description": "",
+  "description": "Extensions for Unity",
   "dependencies": {
   }
 }

@@ -1,8 +1,8 @@
 {
-    "name": "E314.DI.GameKit.Uni.Tests",
-    "rootNamespace": "E314.DI.GameKit.Uni.Tests",
+    "name": "E314.ExtUni.Editor",
+    "rootNamespace": "E314.ExtUni.Editor",
     "references": [
-        "E314.DI.GameKit.Uni"
+        "GUID:7e24e2e6e0d403f46858c907eef848ec"
     ],
     "includePlatforms": [
         "Editor"

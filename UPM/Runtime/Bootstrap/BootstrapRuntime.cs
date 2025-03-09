@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using UnityEngine;
 
-namespace E314.GameKit.Uni
+namespace E314.ExtUni
 {
 
 internal static class BootstrapRuntime
