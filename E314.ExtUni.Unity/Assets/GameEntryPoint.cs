@@ -1,4 +1,4 @@
-using E314.GameKit.Uni;
+using E314.ExtUni;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "EntryPoint", menuName = "Game/EntryPoint")]
@@ -6,26 +6,26 @@ public sealed class GameEntryPoint : Bootstrap
 {
 	protected override void OnSubsystemRegistration()
 	{
-		Debug.LogError(nameof(OnSubsystemRegistration));
+		Debug.Log(nameof(OnSubsystemRegistration));
 	}
 
 	protected override void OnAfterAssembliesLoaded()
 	{
-		Debug.LogError(nameof(OnAfterAssembliesLoaded));
+		Debug.Log(nameof(OnAfterAssembliesLoaded));
 	}
 
 	protected override void OnBeforeSplashScreen()
 	{
-		Debug.LogError(nameof(OnBeforeSplashScreen));
+		Debug.Log(nameof(OnBeforeSplashScreen));
 	}
 
 	protected override void OnBeforeSceneLoad()
 	{
-		Debug.LogError(nameof(OnBeforeSceneLoad));
+		Debug.Log(nameof(OnBeforeSceneLoad));
 	}
 
 	protected override void OnAfterSceneLoad()
 	{
-		Debug.LogError(nameof(OnAfterSceneLoad));
+		Debug.Log(nameof(OnAfterSceneLoad));
 	}
 }

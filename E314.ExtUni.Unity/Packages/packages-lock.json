@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.e314.gamekit.uni": {
+    "com.e314.ext-uni": {
       "version": "file:../../UPM",
       "depth": 0,
       "source": "local",
