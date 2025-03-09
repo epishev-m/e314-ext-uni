@@ -1,0 +1,12 @@
+{
+  "name": "com.e314.gamekit.uni",
+  "displayName": "E314.DI.GameKit.Uni",
+  "version": "1.1.2",
+  "author": {
+    "name": "Maksim Epishev",
+    "email": "epishev.m@mail.ru"
+  },
+  "description": "",
+  "dependencies": {
+  }
+}
