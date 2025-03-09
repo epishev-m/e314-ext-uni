@@ -1,6 +1,6 @@
-# E314.GameKit.Uni
+# E314.ExtUni
 
-The `E314.GameKit.Uni` module ...
+The `E314.ExtUni` module ...
 
 ## Installation
 

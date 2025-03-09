@@ -17,7 +17,7 @@
 ## Unity Package Manager. Git URL
 
 ```ps1
-https://github.com/epishev-m/e314-gamekit-uni.git?path=UPM/#release/1.0.0
+https://github.com/epishev-m/e314-ext-uni.git?path=UPM/#release/1.0.0
 ```
 
 1. Открыть Window → Package Manager.
@@ -27,7 +27,7 @@ https://github.com/epishev-m/e314-gamekit-uni.git?path=UPM/#release/1.0.0
 ## Unity Package Manager. OpenUPM
 
 ```ps1
-https://openupm.com/packages/e314-gamekit-uni.html
+https://openupm.com/packages/com.e314.ext-uni.html
 ```
 
 1. Открыть Edit → Project Settings → Package Manager.
@@ -36,13 +36,13 @@ https://openupm.com/packages/e314-gamekit-uni.html
 4. Нажать Apply.
 5. Открыть Window → Package Manager.
 6. Нажать на + button → Add package by name...
-7. Введите Имя `e314-gamekit-uni` и Версию `1.0.0`.
+7. Введите Имя `com.e314.ext-uni` и Версию `1.0.0`.
 8. Нажмите Add.
 
 ## NuGet
 
 ```ps1
-https://www.nuget.org/packages/E314.GameKit.Uni
+https://www.nuget.org/packages/E314.ExtUni
 ```
 
 1. Открыть командную строку
@@ -50,5 +50,5 @@ https://www.nuget.org/packages/E314.GameKit.Uni
 3. Выполнить команду для установки пакета NuGet:
 
 ```sh
-dotnet add package E314.GameKit.Uni -v 1.0.0
+dotnet add package E314.ExtUni -v 1.0.0
 ```
