@@ -14,31 +14,31 @@ internal static class BootstrapRuntime
 		if (preloadAsset is Bootstrap instance) instance.ExecuteAwake();
 #endif
 
-			Bootstrap.Instance.Initialize(RuntimeInitializeLoadType.SubsystemRegistration);
+			Bootstrap.Instance?.Initialize(RuntimeInitializeLoadType.SubsystemRegistration);
 	}
 
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)]
 	private static void RuntimeInitialize_AfterAssembliesLoaded()
 	{
-		Bootstrap.Instance.Initialize(RuntimeInitializeLoadType.AfterAssembliesLoaded);
+		Bootstrap.Instance?.Initialize(RuntimeInitializeLoadType.AfterAssembliesLoaded);
 	}
 
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSplashScreen)]
 	private static void RuntimeInitialize_BeforeSplashScreen()
 	{
-		Bootstrap.Instance.Initialize(RuntimeInitializeLoadType.BeforeSplashScreen);
+		Bootstrap.Instance?.Initialize(RuntimeInitializeLoadType.BeforeSplashScreen);
 	}
 
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
 	private static void RuntimeInitialize_BeforeSceneLoad()
 	{
-		Bootstrap.Instance.Initialize(RuntimeInitializeLoadType.BeforeSceneLoad);
+		Bootstrap.Instance?.Initialize(RuntimeInitializeLoadType.BeforeSceneLoad);
 	}
 
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
 	private static void RuntimeInitialize_AfterSceneLoad()
 	{
-		Bootstrap.Instance.Initialize(RuntimeInitializeLoadType.AfterSceneLoad);
+		Bootstrap.Instance?.Initialize(RuntimeInitializeLoadType.AfterSceneLoad);
 	}
 }
 

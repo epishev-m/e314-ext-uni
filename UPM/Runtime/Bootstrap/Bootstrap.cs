@@ -90,7 +90,6 @@ public abstract class Bootstrap : ScriptableObject
 		}
 #endif
 		Instance = this;
-		Debug.LogError("Awake");
 	}
 }
 
