@@ -1,8 +1,8 @@
 using E314.ExtUni;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "EntryPoint", menuName = "Game/EntryPoint")]
-public sealed class GameEntryPoint : Bootstrap
+[CreateAssetMenu(fileName = "GameBootstrap", menuName = "Game/GameBootstrap")]
+public sealed class GameBootstrap : Bootstrap
 {
 	protected override void OnSubsystemRegistration()
 	{
